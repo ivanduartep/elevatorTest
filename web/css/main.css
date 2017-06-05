@@ -1,0 +1,141 @@
+body{
+    font-family: "Adobe Ming Std" !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin-top: 10px;
+}
+
+.selected{
+    background-color: #269abc !important;
+}
+
+.btn-container{
+    margin-top: 20px;
+}
+
+.list-horizontal{
+    overflow: hidden;
+}
+
+.list-horizontal li{
+    float: left;
+    text-align: center;
+}
+
+.navbar, .navbar-default{
+    height: 80px;
+    background-color: #269abc !important;
+}
+
+.navbar-brand{
+    line-height: 50px !important;
+    color: white !important;
+    text-decoration: none;
+    font-size: 50px !important;
+    font-family: "Adobe Ming Std";
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+input[type='text'] {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    font-size: 24px;
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    margin-bottom: 20px !important;
+    background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+input[type='text']:hover, input.holo[type='text']:focus {
+    background: bottom left linear-gradient(#0099cc, #0099cc) no-repeat, bottom center linear-gradient(#0099cc, #0099cc) repeat-x, bottom right linear-gradient(#0099cc, #0099cc) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+.margin-top-button{
+    margin-top: 20px !important;
+}
+
+.floor{
+    background-color: #269abc;
+    height: 50px;
+    color: white;
+    border-bottom: dashed white 1px;
+}
+
+.floor:hover{
+    background-color: #00b3ee;
+    cursor: pointer;
+}
+
+.floor-name{
+    display:block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.elevator{
+    background-color: gray;
+    height: 50px;
+    color:white;
+    position: relative;
+}
+
+.roundbutton{
+    line-height:4em;
+    display:block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.roundbutton:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.roundbutton > i{
+    font-size: 25px;
+}
+
+.round-margin-bottom{
+    margin-bottom: 25px;
+}
+
+.modal-header {
+    border-bottom: 0px !important;
+}
+
+.modal-footer{
+    border-top: 0px !important;
+}
+
+#timer {
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+}
+
+#gameContainer{
+    position: relative;
+}
+
+.openDoors{
+    background-color: #269abc !important;
+}
